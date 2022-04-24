@@ -1,0 +1,52 @@
+.banner{
+    background:  url(../img/banner-image.png);
+    width: 100%;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__contenido{
+    position: relative;
+    top:calc(352px / 2);
+    color: #fdfdfd;
+}
+
+.banner__titulo{
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.banner__texto{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.banner__boton{
+    background-color: #2A7AE4;
+    padding: .8rem 1rem;
+    border-radius: 5px;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+    .banner{
+        height: 252px;
+    }
+
+    .banner__contenido{
+        top:calc(200px / 2);
+    }
+
+    .banner__titulo{
+        font-size: 32px;
+    }
+    
+
+}

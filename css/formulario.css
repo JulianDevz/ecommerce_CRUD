@@ -1,0 +1,153 @@
+.footer_formulario__titulo{
+	margin-bottom: 1rem;
+	font-weight: 800;
+}
+
+.form__label {
+	margin-bottom: 1rem;
+}
+
+.formulario__input-container {
+	position: relative;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-sizing: border-box;
+}
+  
+.input {
+	background-color: #fff;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #2A7AE4;
+	padding: 1.375rem 0.5rem 0.5rem;
+	height: 3.25rem;
+	width: 100%;
+}
+  
+.input::placeholder {
+	visibility: hidden;
+	color: #00000000;
+}
+  
+.input:focus {
+    outline: none;
+}
+  
+.input-label {
+	position: absolute;
+	top: 1.375rem;
+	left: 0.5rem;
+
+	transition: all 0.25s;
+}
+  
+.input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label {
+	font-size: 0.875rem;
+	top: 0.25rem;
+	transition: all 0.25s;
+}
+  
+.input-container--invalid {
+  margin-bottom: 0.5rem;
+}
+  
+.input-container--invalid .input {
+	border: 1px solid red;
+	border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+	color: red;
+}
+
+.input-message-error {
+	display: none;
+}
+
+.input-container--invalid .input-message-error {
+	color: red;
+	display: block;
+	margin-top: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+.textarea {
+	background-color: #fff;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #2A7AE4;
+	padding: 0.5rem;
+	border-radius: 7px;
+	width: 100%;
+	min-height: 3rem;
+	resize: none;
+}
+
+.formulario__textarea-container {
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.textarea::placeholder {
+	visibility: hidden;
+}
+
+.textarea:focus {
+	outline: none;
+}
+
+.input-label {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	transition: all 0.25s;
+}
+
+.textarea:not(:placeholder-shown) + .input-label,
+.textarea:focus + .input-label {
+	font-size: 0.875rem;
+	top: -1.25rem;
+	transition: all 0.25s;
+}
+
+.textarea-container--invalid {
+	margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .textarea {
+	border: 1px solid red;
+}
+
+.textarea-container--invalid .input-label {
+	color: red;
+}
+
+.textarea-mensagem-erro {
+	display: none;
+}
+
+.textarea-container--invalid .textarea-mensagem-erro {
+	display: block;
+	color: red;
+	margin-top: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+.boton-form{
+	border-radius: 5px;
+	padding: 1rem 2rem;
+	color: #ffffff;
+	background-color: #2A7AE4;
+	font-weight: 500;
+	border: none;
+}
+
+.boton-form:hover{
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+	cursor: pointer;
+}
+
