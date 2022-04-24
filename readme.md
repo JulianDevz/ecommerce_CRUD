@@ -8,7 +8,7 @@
 
 _Este repositorio fue creado como solución al Challengue Frontend #2 propuesto por el curso de Frontend de Alura Latam_
 
-[Puedes probarlo aqui!](https://portfolio-julian-pachon.netlify.app)
+[Puedes probarlo aqui!](https://julian-alura-geek.netlify.app)
 
 ## Secciones
 * Header
