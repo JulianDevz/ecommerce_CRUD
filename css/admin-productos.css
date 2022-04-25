@@ -19,17 +19,87 @@
 	font-weight: 500;
 	border: none;
     font-size: 1rem;
+    text-align: center;
 }
 
+.star_wars__card__imagen,
+.consolas__card__imagen{
+    height: 198px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+}
 
  .boton-eliminar{
-    position: relative;
-    top: -195px;
-    left: 145px;
+    padding-top: .5rem;
+    padding-left: .5rem;
 }
 
  .boton-editar{
-    position: relative;
-    top: -195px;
-    left: 150px;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    padding-top: .5rem;
 }
+
+.star_wars__card__imagen_1{
+    background: url(../img/star-wars/producto_1.png) center / cover no-repeat ;
+}
+
+.star_wars__card__imagen_2{
+    background: url(../img/star-wars/producto_2.png) center / cover no-repeat ;
+}
+
+.star_wars__card__imagen_3{
+    background: url(../img/star-wars/producto_3.png) center / cover no-repeat ;
+}
+
+.star_wars__card__imagen_4{
+    background: url(../img/star-wars/producto_4.png) center / cover no-repeat ;
+}
+
+.star_wars__card__imagen_5{
+    background: url(../img/star-wars/producto_5.png) center / cover no-repeat ;
+}
+
+.star_wars__card__imagen_6{
+    background: url(../img/star-wars/producto_6.png) center / cover no-repeat ;
+}
+
+/* CONSOLAS */
+
+.consolas__card__imagen_1{
+    background: url(../img/consolas/consola_1.png) center / cover no-repeat ;
+}
+
+.consolas__card__imagen_2{
+    background: url(../img/consolas/consola_2.png) center / cover no-repeat ;
+}
+
+.consolas__card__imagen_3{
+    background: url(../img/consolas/consola_3.png) center / cover no-repeat ;
+}
+
+.consolas__card__imagen_4{
+    background: url(../img/consolas/consola_4.png) center / cover no-repeat ;
+}
+
+.consolas__card__imagen_5{
+    background: url(../img/consolas/consola_5.png) center / cover no-repeat ;
+}
+
+.consolas__card__imagen_6{
+    background: url(../img/consolas/consola_6.png) center / cover no-repeat ;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+    .productos__head__boton{
+        line-height: 1.3rem;
+    }
+}
+
+
+
