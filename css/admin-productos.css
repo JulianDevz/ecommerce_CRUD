@@ -1,0 +1,35 @@
+.productos__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.productos__head__titulo-principal{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #464646;
+}
+
+.productos__head__boton{
+    border-radius: 5px;
+	padding: 1rem 2rem;
+	color: #ffffff;
+	background-color: #2A7AE4;
+	font-weight: 500;
+	border: none;
+    font-size: 1rem;
+}
+
+
+ .boton-eliminar{
+    position: relative;
+    top: -195px;
+    left: 145px;
+}
+
+ .boton-editar{
+    position: relative;
+    top: -195px;
+    left: 150px;
+}

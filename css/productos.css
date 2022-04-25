@@ -53,7 +53,7 @@
 .star_wars__card__imagen,
 .consolas__card__imagen,
 .diversos__card__imagen{
-    /* width: 100%; */
+    width: 100%;
 }
 
 .star_wars__card:nth-child(1),
