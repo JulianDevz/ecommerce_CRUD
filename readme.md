@@ -1,4 +1,4 @@
-# E-commerce Alura Gekk
+# E-commerce Alura Geek
 
 <div align="center">
   
