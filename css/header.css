@@ -38,6 +38,11 @@
     border-radius: 5px;
 }
 
+.header__boton:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.25);
+}
+
+
 .header__lupa-mobile{
     display: none;
 }

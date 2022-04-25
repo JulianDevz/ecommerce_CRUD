@@ -30,6 +30,11 @@
     border-radius: 5px;
 }
 
+.banner__boton:hover{
+    box-shadow: 1px 1px 8px 0px rgba(255, 255, 255, 0.45);
+}
+
+
 /* ------------------------------------ */
 /* ----- Responsive para Mobiles ------ */
 /* ------------------------------------ */
