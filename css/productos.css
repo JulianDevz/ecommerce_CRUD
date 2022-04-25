@@ -1,7 +1,12 @@
+.seccion__productos{
+    background-color: #f5f5f5;
+    padding: 3rem 0;
+}
+
 .star_wars,
 .consolas,
 .diversos{
-    margin: 3rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .star_wars__head,
@@ -48,7 +53,7 @@
 .star_wars__card__imagen,
 .consolas__card__imagen,
 .diversos__card__imagen{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .star_wars__card:nth-child(1),
