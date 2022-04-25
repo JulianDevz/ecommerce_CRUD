@@ -1,0 +1,160 @@
+.formulario{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.formulario-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-login_form{
+    width: 40%;
+}
+
+.formulario-login__titulo{
+	margin-bottom: 1.5rem;
+	font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.form__label {
+	margin-bottom: 1rem;
+}
+
+.formulario-login__input-container {
+	position: relative;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-sizing: border-box;
+}
+  
+.input {
+	background-color: #fff;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #2A7AE4;
+	padding: 1.375rem 0.5rem 0.5rem;
+	height: 3.25rem;
+	width: 100%;
+}
+  
+.input::placeholder {
+	visibility: hidden;
+	color: #00000000;
+}
+  
+.input:focus {
+    outline: none;
+}
+  
+.input-label {
+	position: absolute;
+	top: 1.375rem;
+	left: 0.5rem;
+
+	transition: all 0.25s;
+}
+  
+.input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label {
+	font-size: 0.875rem;
+	top: 0.25rem;
+	transition: all 0.25s;
+}
+  
+.input-container--invalid {
+  margin-bottom: 0.5rem;
+}
+  
+.input-container--invalid .input {
+	border: 1px solid red;
+	border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+	color: red;
+}
+
+.input-message-error {
+	display: none;
+}
+
+.input-container--invalid .input-message-error {
+	color: red;
+	display: block;
+	margin-top: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+.input-label {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	transition: all 0.25s;
+}
+
+.input-container--invalid .textarea {
+	border: 1px solid red;
+}
+
+.textarea-container--invalid .input-label {
+	color: red;
+}
+
+.textarea-mensagem-erro {
+	display: none;
+}
+
+.textarea-container--invalid .textarea-mensagem-erro {
+	display: block;
+	color: red;
+	margin-top: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+.boton-formulario-login{
+	border-radius: 5px;
+	padding: 1rem 2rem;
+	color: #ffffff;
+	background-color: #2A7AE4;
+	font-weight: 500;
+	border: none;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.boton-formulario-login:hover{
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+	cursor: pointer;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+	.formulario-login_form{
+		width: 70%;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	.formulario-login_form{
+		width: 70%;
+	}
+
+}
