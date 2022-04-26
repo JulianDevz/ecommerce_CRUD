@@ -1,0 +1,52 @@
+.imagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.imagen-drop{
+    width: 50%;
+    height: 160px;
+    background-color: #fdfdfd;
+    border: 2px dashed #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.imagen-drop-texto{
+    line-height: 1.4rem;
+}
+
+.texto_o{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-boton{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar__imagen__boton{
+    display: none;
+}
+
+.agregar__imagen__boton__texto {
+    border: 1px solid #2A7AE4;
+    padding: 1rem 2rem;
+    color: #2A7AE4;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+
