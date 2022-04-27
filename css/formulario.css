@@ -25,6 +25,12 @@
 	height: 3.25rem;
 	width: 100%;
 }
+
+.input,
+.textarea{
+	font-size: 1rem;
+	font-family: 'Raleway' ;
+}
   
 .input::placeholder {
 	visibility: hidden;

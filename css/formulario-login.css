@@ -17,7 +17,7 @@
 }
 
 .formulario-login__titulo{
-	margin-bottom: 1.5rem;
+	margin-bottom: 3rem;
 	font-weight: 800;
     font-size: 1.5rem;
 }
@@ -25,6 +25,7 @@
 .form__label {
 	margin-bottom: 1rem;
 }
+
 
 .formulario-login__input-container {
 	position: relative;
@@ -44,6 +45,7 @@
 	height: 3.25rem;
 	width: 100%;
 }
+
   
 .input::placeholder {
 	visibility: hidden;

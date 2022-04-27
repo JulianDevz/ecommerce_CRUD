@@ -51,6 +51,10 @@
     text-align: center;
 }
 
+.agregar__imagen__boton__texto:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
 
 /* ------------------------------------ */
 /* ----- Responsive para Mobiles ------ */
