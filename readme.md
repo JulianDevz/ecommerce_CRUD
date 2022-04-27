@@ -14,6 +14,10 @@ _Este repositorio fue creado como solución al Challengue Frontend #2 propuesto 
 * Header
 * Banner
 * Productos
+* Ver productos
+* Login
+* Administrar productos
+* Agregar productos
 * Contacto
 * Footer
 
