@@ -1,0 +1,112 @@
+{
+  "productos": [
+    {
+      "nombre": "Producto XYZ",
+      "email": "60,00",
+      "imagen": "./img/star-wars/producto1.svg",
+      "id": "1"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "email": "60,00",
+      "imagen": "./img/star-wars/producto_2.png",
+      "id": "2"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "email": "60,00",
+      "imagen": "./img/star-wars/producto_3.png",
+      "id": "3"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "email": "60,00",
+      "imagen": "./img/star-wars/producto_4.png",
+      "id": "4"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "email": "60,00",
+      "imagen": "./img/star-wars/producto_5.png",
+      "id": "5"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "email": "60,00",
+      "imagen": "./img/star-wars/producto_6.png",
+      "id": "6"
+    },
+    {
+      "nombre": "Control XYZ",
+      "email": "60,00",
+      "imagen": "./img/consolas/consola_1.png",
+      "id": "7"
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "email": "60,00",
+      "imagen": "./img/consolas/consola_2.png",
+      "id": "8"
+    },
+    {
+      "nombre": "Consola XYZ",
+      "email": "60,00",
+      "imagen": "./img/consolas/consola_3.png",
+      "id": "9"
+    },
+    {
+      "nombre": "Consola XYZ",
+      "email": "60,00",
+      "imagen": "./img/consolas/consola_4.png",
+      "id": "10"
+    },
+    {
+      "nombre": "Consola XYZ",
+      "email": "60,00",
+      "imagen": "./img/consolas/consola_5.png",
+      "id": "11"
+    },
+    {
+      "nombre": "Game Boy Color",
+      "email": "60,00",
+      "imagen": "./img/consolas/consola_6.png",
+      "id": "12"
+    },
+    {
+      "nombre": "Camisa Atari",
+      "email": "60,00",
+      "imagen": "./img/diversos/diversos_1.png",
+      "id": "12"
+    },
+    {
+      "nombre": "Camisa SNES",
+      "email": "60,00",
+      "imagen": "./img/diversos/diversos_2.png",
+      "id": "12"
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "email": "60,00",
+      "imagen": "./img/diversos/diversos_3.png",
+      "id": "12"
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "email": "60,00",
+      "imagen": "./img/diversos/diversos_4.png",
+      "id": "12"
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "email": "60,00",
+      "imagen": "./img/diversos/diversos_5.png",
+      "id": "12"
+    },
+    {
+      "nombre": "Producto XYZ",
+      "email": "60,00",
+      "imagen": "./img/diversos/diversos_6.png",
+      "id": "12"
+    }
+  ]
+}

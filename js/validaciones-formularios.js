@@ -4,7 +4,6 @@ export function valida(input){
 		validadores[tipoDeInput](input);
 	}
 
-  console.log(input.parentElement)
   if(input.validity.valid){
     input.parentElement.classList.remove("input-container--invalid");
     input.parentElement.querySelector(".input-message-error").innerHTML = ""
@@ -22,41 +21,48 @@ const tipoDeErrores = [
 ]
 
 const mensajesDeError = {
-  correo:{
-    valueMissing:"El campo correo electronico no puede estar vacio",
-    typeMismatch:"El correo electronico no es valido"
+
+  //Inputs login
+
+  usuario:{
+    valueMissing:"El campo usuario no puede estar vacio",
   },
-  contraseñaLogin:{
+  contraseña:{
     valueMissing:"El campo contraseña no puede estar vacio",
   },
+
+  //Inputs contactanos
+
   nombre:{
     valueMissing:"El campo Nombre no puede estar vacio"
   },
   mensaje:{
     valueMissing:"El campo Mensaje no puede estar vacio",
   },
+
+  //Inputs agregar producto
+
   nombreProducto:{
     valueMissing:"El campo Nombre del Producto no puede estar vacio",
+    patternMismatch:"El Nombre solo puede contener como maximo 20 caracteres"
   },
   precioProducto:{
     valueMissing:"El campo Precio del Producto no puede estar vacio",
+    patternMismatch:"El Precio solo puede ser ingresado en numeros"
   },
   descripcionProducto:{
-    valueMissing:"El campo Descripcion del Producto no puede estar vacio",
+    valueMissing:"El campo Descripcion del Producto no puede estar vacio"
   }
 }
 
 const validadores = {
-	nacimiento: (input) => validarNacimiento(input),
+
 };
 
 function mostrarMensajeDeError(tipoDeInput,input){
   let mensaje = "";
   tipoDeErrores.forEach(error => {
     if(input.validity[error]){
-      console.log(tipoDeInput, error);
-      console.log(input.validity[error]);
-      console.log(mensajesDeError[tipoDeInput][error])
       mensaje = mensajesDeError[tipoDeInput][error];
     }
   });

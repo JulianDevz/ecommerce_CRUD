@@ -37,16 +37,16 @@
                 <h3 class="formulario-login__titulo">Iniciar Sesión</h2>
                 <form action="" class="formulario-login_form">
                     <div class="formulario-login__input-container">
-                        <input name="correo" id="correo" class="input inputs" type="email" placeholder="" required data-tipo="correo">
-                        <label class="input-label" for="correo">Escribe tu correo electronico</label>
+                        <input name="usuario" id="usuario" class="input inputs" type="text" placeholder="" required data-tipo="usuario" data-form-usuario>
+                        <label class="input-label" for="usuario">Escribe tu usuario</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="formulario-login__input-container">
-                        <input name="contraseña" id="contraseña" class="input inputs input-contraseña" type="password" placeholder="" required data-tipo="contraseñaLogin">
+                        <input name="contraseña" id="contraseña" class="input inputs input-contraseña" type="password" placeholder="" required   data-tipo="contraseña" data-form-contraseña>
                         <label class="input-label" for="contraseña">Escribe tu contraseña</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                    <input class="boton-formulario-login" type="submit" name="enviar" id="enviar" value="Entrar">
+                    <input class="boton-formulario-login" type="submit" name="enviar" id="enviar-login" value="Entrar">
                 </form>
             </div>
         </div>
@@ -97,6 +97,8 @@
         <p class="rodapie__texto">2022</p>
     </footer>
 
+    <script src="./js/login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/app.js" type="module"></script>
 </body>    
 </html>

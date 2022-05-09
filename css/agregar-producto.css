@@ -1,3 +1,11 @@
+.input-precio{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-descripcion{
+    height: 120px;
+}
+
 .imagen{
     display: flex;
     flex-direction: row;
