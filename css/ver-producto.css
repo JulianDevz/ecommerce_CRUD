@@ -65,13 +65,13 @@
         display: flex;
         flex-direction: column;
     }
-}
+} 
 
 /* ------------------------------------ */
 /* ----- Responsive para Tablets ------ */
 /* ------------------------------------ */
 
-@media (min-width:768px) and (max-width:1024px){
+ @media (min-width:768px) and (max-width:1024px){
 
     .seccion__producto{
         padding-top: 2rem;
@@ -82,4 +82,4 @@
         height: auto;
     }
     
-}
+} 
