@@ -51,118 +51,30 @@
     grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
 }
 
-.star_wars__card__imagen,
-.consolas__card__imagen,
-.diversos__card__imagen{
+.producto__card__imagen{
     height: 279px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.star_wars__card__imagen,
-.star_wars__card__titulo,
-.star_wars__card__precio,
-.consolas__card__imagen,
-.consolas__card__titulo,
-.consolas__card__precio,
-.diversos__card__imagen,
-.diversos__card__titulo,
-.diversos__card__precio{
+.producto__card__imagen,
+.producto__card__titulo,
+.producto__card__precio{
     margin-bottom: .5rem;
 }
 
-.star_wars__card__titulo,
-.consolas__card__titulo,
-.diversos__card__titulo{
+.producto__card__titulo{
     color: #464646;
 }
 
-.star_wars__card__precio,
-.consolas__card__precio,
-.diversos__card__precio{
+.producto__card__precio{
     font-weight: 800;
 }
 
-.star_wars__card__boton,
-.consolas__card__boton,
-.diversos__card__boton{
+.producto__card__boton{
     color: #2A7AE4;
     font-weight: 800;
-}
-
-
-.star_wars__card__imagen_1{
-    background: url(../img/star-wars/producto1.svg) center / cover no-repeat ;
-}
-
-.star_wars__card__imagen_2{
-    background: url(../img/star-wars/producto2.svg) center / cover no-repeat ;
-}
-
-.star_wars__card__imagen_3{
-    background: url(../img/star-wars/producto_3.png) center / cover no-repeat ;
-}
-
-.star_wars__card__imagen_4{
-    background: url(../img/star-wars/producto_4.png) center / cover no-repeat ;
-}
-
-.star_wars__card__imagen_5{
-    background: url(../img/star-wars/producto_5.png) center / cover no-repeat ;
-}
-
-.star_wars__card__imagen_6{
-    background: url(../img/star-wars/producto_6.png) center / cover no-repeat ;
-}
-
-/* CONSOLAS */
-
-.consolas__card__imagen_1{
-    background: url(../img/consolas/consola_1.png) center / cover no-repeat ;
-}
-
-.consolas__card__imagen_2{
-    background: url(../img/consolas/consola_2.png) center / cover no-repeat ;
-}
-
-.consolas__card__imagen_3{
-    background: url(../img/consolas/consola_3.png) center / cover no-repeat ;
-}
-
-.consolas__card__imagen_4{
-    background: url(../img/consolas/consola_4.png) center / cover no-repeat ;
-}
-
-.consolas__card__imagen_5{
-    background: url(../img/consolas/consola_5.png) center / cover no-repeat ;
-}
-
-.consolas__card__imagen_6{
-    background: url(../img/consolas/consola_6.png) center / cover no-repeat ;
-}
-
-/* DIVERSOS */
-
-.diversos__card__imagen_1{
-    background: url(../img/diversos/diversos_1.png) center / cover no-repeat ;
-}
-
-.diversos__card__imagen_2{
-    background: url(../img/diversos/diversos_2.png) center / cover no-repeat ;
-}
-
-.diversos__card__imagen_3{
-    background: url(../img/diversos/diversos_3.png) center / cover no-repeat ;
-}
-
-.diversos__card__imagen_4{
-    background: url(../img/diversos/diversos_4.png) center / cover no-repeat ;
-}
-
-.diversos__card__imagen_5{
-    background: url(../img/diversos/diversos_5.png) center / cover no-repeat ;
-}
-
-.diversos__card__imagen_6{
-    background: url(../img/diversos/diversos_6.png) center / cover no-repeat ;
 }
 
 /* ------------------------------------ */
