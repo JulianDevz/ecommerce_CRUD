@@ -21,7 +21,7 @@
     <header class="header container">
         <div class="header_info">
             <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg" alt="logo de alura geek"></a>
-            <input class="header__input" type="text" placeholder="¿Que deseas buscar?">
+            <input class="header__input" type="text" placeholder="¿Que deseas buscar?" data-buscador>
             <img class="header__lupa" src="../assets/img/lupa.svg" alt="lupa">
         </div>
         <a class="header__boton" href="./login.html">Login</a>
@@ -55,7 +55,7 @@
                     <div class="star_wars__head">
                         <h1 class="star_wars__head__titulo-principal">Productos similares</h1>
                     </div>
-                    <div class="star_wars__productos" data-productos-similares>
+                    <div class="producto_similares" data-productos-similares>
                         
                     </div>
                 </div>    
@@ -109,6 +109,7 @@
     </footer>
 
     <script src="/controllers/detalle.controller.js" type="module"></script>
+    <script src="/controllers/busqueda.controller.js" type="module"></script>
     <script src="./js/app.js" type="module"></script>
 </body>
 </html>
