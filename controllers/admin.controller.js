@@ -12,7 +12,7 @@ const MostrarProductosAdmin = (nombre, precio, descripcion, imagen, id, categori
   </div>
   <h3 class="producto__card__titulo">${nombre}</h3>
   <p class="producto__card__precio">${precio}</p>
-  <a class="producto__card__boton" href="./ver-producto.html">Ver producto</a>
+  <p class="producto__card__titulo">#${id}</p>
   `
   cardProducto.innerHTML = contenido;
   return cardProducto;

@@ -8,5 +8,8 @@ const detalleProducto = async (id) => {
 
 export const clientServices = {
   listaProductos,
-  detalleProducto
+  detalleProducto,
 }
+
+
+
