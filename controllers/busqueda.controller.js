@@ -6,6 +6,7 @@ buscador.addEventListener("input", evento => {
   buscador.addEventListener("keypress", eventoDos => {
     if (eventoDos.key === 'Enter') {
       window.location.href = `../busqueda-productos.html?texto=${texto}`;
+      buscador.value="";
     }
   });
 });
