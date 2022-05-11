@@ -22,9 +22,7 @@
     text-align: center;
 }
 
-.star_wars__card__imagen,
-.consolas__card__imagen,
-.diversos__card__imagen{
+.producto__card__imagen{
     height: 279px;
     display: flex;
     justify-content:flex-end;
@@ -52,6 +50,10 @@
     transform: scale(1.3); 
 }
 
+
+/* .producto__card__imagen{
+    background: url(../img/consolas/consola_1.png) center / cover no-repeat;
+} */
 
 
 
