@@ -85,6 +85,10 @@
     font-weight: 800;
 }
 
+.productos__resultados_mensaje{
+    height: 30vh;
+}
+
 /* ------------------------------------ */
 /* ----- Responsive para Mobiles ------ */
 /* ------------------------------------ */
@@ -98,6 +102,10 @@
 /* ------------------------------------ */
 
 @media (min-width:768px) and (max-width:1024px){
+
+    .productos__resultados_mensaje{
+        height: 48vh;
+    }
 
 }
 
