@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/geek_vector.svg">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/productos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/rodapie.css">
+    <link rel="stylesheet" href="./assets/css/admin-productos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Alura Geek - Administracion</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header_info">
+            <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg" alt="logo de alura geek"></a>
+            <input class="header__input" type="text" placeholder="¿Que deseas buscar?" data-buscador>
+            <img class="header__lupa" src="./assets/img/lupa.svg" alt="lupa">
+        </div>
+        <a class="header__boton" href="./login.html">Login</a>
+        <img class="header__lupa-mobile" src="./assets/img/lupa-mobile.svg" alt="lupa">
+    </header>
+    <main>
+
+        <!---------------------------------->
+        <!------------ PRODUCTOS ----------->
+        <!---------------------------------->
+
+        <section class="seccion__productos">
+            <div class="productos container">
+                <div class="star_wars">       
+                    <div class="productos__head">
+                        <h1 class="productos__head__titulo-principal">Resultados de busqueda</h1>
+                    </div>
+                    <div class="productos_admin" data-productos-busqueda>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------->
+        <!------------- CONTACTO ------------>
+        <!----------------------------------->
+
+        <section class="footer">
+            <div class="contenido__footer container">
+                <div class="contenido__footer_info">
+                    <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg" alt="logo de alura geek"></a>
+                    <ul  class="footer_links">
+                        <li class="footer__enlace"><a href="#">Quienes somos</a></li>
+                        <li class="footer__enlace"><a href="#">Politica de privacidad</a></li>
+                        <li class="footer__enlace"><a href="#">Programa de fidelidad</a></li>
+                        <li class="footer__enlace"><a href="#">Nuestras Tiendas</a></li>
+                        <li class="footer__enlace"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="footer__enlace"><a href="#">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                <div class="footer_formulario">
+                    <h3 class="footer_formulario__titulo">Hable con nosotros</h2>
+                    <form action="">
+                        <div class="formulario__input-container">
+                            <input name="name" id="name" class="input inputs" type="text" placeholder="" required data-tipo="nombre">
+                            <label class="input-label" for="name">Nombre</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="formulario__textarea-container">
+                            <textarea name="mensaje" id="mensaje" class="textarea inputs" rows="5" type="text" placeholder="" required data-tipo="mensaje"></textarea>
+                            <label class="input-label" for="mensaje">Escribe tu mensaje</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <input class="boton-form" type="submit" name="enviar" id="enviar" value="Enviar Mensaje">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!----------------------------------->
+    <!-------------- FOOTER ------------->
+    <!----------------------------------->
+
+    <footer class="rodapie">
+        <p class="rodapie__texto">Desarrollado por Julian Pachon</p>
+        <p class="rodapie__texto">2022</p>
+    </footer>
+
+    <script src="/controllers/buscador.controller.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
