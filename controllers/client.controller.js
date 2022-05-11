@@ -1,22 +1,5 @@
 import { clientServices } from "../services/client-service.js";
 
-// //Destructuring de JSON
-// const MostrarDatosProducto = (nombre, precio, descripcion, imagen, id, categoria) => {
-//   const producto = document.querySelector("[data-producto]");
-//   // const contenido = `
-//   //   <img class="producto__imagen" src="${imagen}" alt="producto star wars">
-//   //   <div class="producto__info">
-//   //       <h2 class="producto__info__titulo">${nombre}</h2>
-//   //       <p class="producto__info__valor">${precio}</p>
-//   //       <p class="producto__info__descripcion">${descripcion}</p>
-//   //   </div>
-//   // `
-//   // producto.innerHTML = contenido;
-
-// }
-// MostrarDatosProducto();
-
-
 //Creando la card del producto
 const MostrarProductos = (nombre, precio, descripcion, imagen, id, categoria) => {
   //Creando el div que guarda todo el card
@@ -53,6 +36,5 @@ clientServices.listaProductos().then(data => {
       const nuevoProducto = MostrarProductos(nombre, precio, descripcion, imagen, id, categoria);
       productosDiversos.appendChild(nuevoProducto);
     }
-
   });
-}).catch( err => alert("Ocurrio un error"))
+}).catch(error => alert("ocurrio un error"));
