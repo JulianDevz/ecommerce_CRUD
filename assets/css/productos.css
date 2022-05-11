@@ -87,6 +87,9 @@
 
 .productos__resultados_mensaje{
     height: 30vh;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #464646;
 }
 
 /* ------------------------------------ */
