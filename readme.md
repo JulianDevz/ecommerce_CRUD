@@ -25,6 +25,9 @@ _Este repositorio fue creado como solución al Challengue Frontend #2 propuesto 
 
 * Html
 * Css (Grid y Flexbox)
+* Javascript
+* JSON - Api Rest
+
 
 ## Gracias!!
 
