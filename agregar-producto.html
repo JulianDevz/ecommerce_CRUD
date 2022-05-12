@@ -40,7 +40,7 @@
         <div class="formulario">
             <div class="formulario-login container">
                 <h3 class="formulario-login__titulo">Agregar nuevo producto</h2>
-                <form action="" class="formulario-login_form">
+                <form action="" class="formulario-login_form" data-form-registro>
                     <div class="imagen">
                         <div class="imagen-drop" data-drag-area>
                             <img class="imagen-drop-img" src="./assets/img/Vector-imagen.svg" alt="icono agrega imagen">
@@ -54,17 +54,23 @@
                         </div>
                     </div>
                     <div class="formulario-login__input-container">
-                        <input name="producto" id="producto" class="input inputs" type="text" placeholder="" required data-tipo="nombreProducto" pattern="^[\s\S]{0,20}$">
+                        <input name="producto" id="producto" class="input inputs" type="text" placeholder="" required data-tipo="nombreProducto" pattern="^[\s\S]{0,20}$"  data-form-producto-nombre>
                         <label class="input-label" for="producto">Nombre del producto</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="formulario-login__input-container">
-                        <input name="precio" id="precio" class="input input-precio inputs" type="text" placeholder="" required data-tipo="precioProducto" pattern="/^[0-9]$/">
+                        <input name="precio" id="precio" class="input input-precio inputs" type="text" placeholder="" required data-tipo="precioProducto" pattern="[0-9]*"  data-form-producto-precio>
                         <label class="input-label" for="precio">Precio del producto</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
+                    <select class="select-css" data-form-producto-categoria>
+                        <option>Elige una Categoria</option>
+                        <option>Star Wars</option>
+                        <option>Consolas</option>
+                        <option>Diversos</option>
+                    </select>
                     <div class="formulario__textarea-container">
-                        <textarea name="descripcion" id="descripcion" class="textarea inputs" rows="5" type="text" placeholder="" required data-tipo="descripcionProducto" pattern="^[\s\S]{0,10}$" maxlength="150"></textarea>
+                        <textarea name="descripcion" id="descripcion" class="textarea inputs" rows="5" type="text" placeholder="" required data-tipo="descripcionProducto" pattern="^[\s\S]{0,10}$" maxlength="150" data-form-producto-descripcion></textarea>
                         <label class="input-label" for="descripcion">Descripcion del producto</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
@@ -119,7 +125,9 @@
         <p class="rodapie__texto">2022</p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/drag-drop-img.js"></script>
+    <script src="./controllers/agregar.controller.js" type="module"></script>
     <script src="/controllers/busqueda.controller.js" type="module"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/app.js" type="module"></script>

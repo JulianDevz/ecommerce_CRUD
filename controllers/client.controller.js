@@ -12,13 +12,13 @@ const productosDiversos = document.querySelector("[data-diversos]");
 clientServices.listaProductos().then(data => {
   data.forEach(({nombre, precio, descripcion, imagen, id, categoria}) => {
     //Imprimir datos en el index
-    if(categoria === "star wars"){
+    if(categoria === "Star wars"){
       const nuevoProducto = MostrarProductos(nombre, precio, descripcion, imagen, id, categoria);
       productosStarWars.appendChild(nuevoProducto);
-    }else if(categoria === "consolas"){
+    }else if(categoria === "Consolas"){
       const nuevoProducto = MostrarProductos(nombre, precio, descripcion, imagen, id, categoria);
       productosConsolas.appendChild(nuevoProducto);
-    }else if(categoria === "diversos"){
+    }else if(categoria === "Diversos"){
       const nuevoProducto = MostrarProductos(nombre, precio, descripcion, imagen, id, categoria);
       productosDiversos.appendChild(nuevoProducto);
     }

@@ -41,8 +41,7 @@
     margin-left: .6rem;
 }
 
-.productos_index,
-.producto_similares{
+.productos_index{
     display: grid;
     gap: 1rem;
     grid-auto-rows: 22rem;
@@ -52,7 +51,8 @@
 .star_wars__productos,
 .consolas__productos,
 .diversos__productos,
-.productos_admin{
+.productos_admin,
+.producto_similares{
     display: grid;
     gap: 1rem;
     grid-auto-rows: 22rem;

@@ -1,7 +1,6 @@
 const dropArea = document.querySelector("[data-drag-area]"),
 dragText = dropArea.querySelector("p")
 
-// const button = document.querySelector(".agregar__imagen__boton__texto");
 const input = document.querySelector(".agregar__imagen__boton");
 
 let file; //Variable global a usar en multiples funciones
@@ -34,13 +33,15 @@ dropArea.addEventListener("drop", (evento) => {
   mostrarArchivo();
 })
 
+
+let fileURL; 
 const mostrarArchivo = () => {
   let tipoArchivo = file.type;
   let validarExtensiones = ["image/jpeg", "image/jpg", "image/png"]//Validar los tipos de archivo a recibir
   if(validarExtensiones.includes(tipoArchivo)){ //si el tipo de archivo que estamos subiendo es de formato valido
     let fileReader = new FileReader(); //Creando el objeto lector
     fileReader.onload = () => {
-      let fileURL = fileReader.result; //pasando el archivo en una archivo tipo enlace
+      fileURL = fileReader.result; //pasando el archivo en una archivo tipo enlace
       let imgTag = `<img src="${fileURL}" alt="" style="width:100%; height:100%; border-radius:5px">`; //Creando el campo donde se vera la imagen que selecciono el usuario
       dropArea.innerHTML = imgTag; //Agregando la imagen a la zona drag
     }

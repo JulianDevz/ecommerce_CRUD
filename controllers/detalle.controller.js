@@ -52,13 +52,13 @@ const obtenerInformacion = async () => {
       clientServices.listaProductos().then(data => {
         data.forEach(({nombre, precio, descripcion, imagen, id, categoria}) => {
           //Imprimir datos en el index
-          if(categoria === "star wars" && categoriaSolicitada === "star wars" && idProductoVisto != id){
+          if(categoria === "Star wars" && categoriaSolicitada === "Star wars" && idProductoVisto != id){
             const nuevoProducto = mostrarProductosRelacionados(nombre, precio, descripcion, imagen, id, categoria);
             productosSimilares.appendChild(nuevoProducto);
-          }else if(categoria === "consolas" && categoriaSolicitada === "consolas" && idProductoVisto != id){
+          }else if(categoria === "Consolas" && categoriaSolicitada === "Consolas" && idProductoVisto != id){
             const nuevoProducto = mostrarProductosRelacionados(nombre, precio, descripcion, imagen, id, categoria);
             productosSimilares.appendChild(nuevoProducto);
-          }else if(categoria === "diversos" && categoriaSolicitada === "diversos" && idProductoVisto != id){
+          }else if(categoria === "Diversos" && categoriaSolicitada === "Diversos" && idProductoVisto != id){
             const nuevoProducto = mostrarProductosRelacionados(nombre, precio, descripcion, imagen, id, categoria);
             productosSimilares.appendChild(nuevoProducto);
           }
