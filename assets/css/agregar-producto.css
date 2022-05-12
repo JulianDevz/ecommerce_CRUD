@@ -14,8 +14,8 @@
 }
 
 .imagen-drop{
-    width: 50%;
-    height: 160px;
+    width: 60%;
+    height: 273px;
     background-color: #fdfdfd;
     border: 2px dashed #C8C8C8;
     display: flex;
@@ -24,6 +24,10 @@
     align-items: center;
     padding: 1rem;
     text-align: center;
+}
+
+.imagen-drop.active{
+    border: 2px solid #C8C8C8;
 }
 
 .imagen-drop-texto{
