@@ -11,15 +11,14 @@ _Este repositorio fue creado como solución al Challengue Frontend #2 propuesto 
 [Puedes probarlo aqui!](https://julian-alura-geek.netlify.app)
 
 ## Secciones
-* Header
-* Banner
-* Productos
-* Ver productos
+* Inicio
+* Ver detalle productos
+* Buscar productos
 * Login
 * Administrar productos
 * Agregar productos
-* Contacto
-* Footer
+* Editar productos
+* Eliminar productos
 
 ## Construido con 🛠️
 
@@ -27,7 +26,6 @@ _Este repositorio fue creado como solución al Challengue Frontend #2 propuesto 
 * Css (Grid y Flexbox)
 * Javascript
 * JSON - Api Rest
-
 
 ## Gracias!!
 
