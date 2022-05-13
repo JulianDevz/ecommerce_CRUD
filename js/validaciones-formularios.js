@@ -44,7 +44,7 @@ const mensajesDeError = {
 
   nombreProducto:{
     valueMissing:"El campo Nombre del Producto no puede estar vacio",
-    patternMismatch:"El Nombre solo puede contener como maximo 20 caracteres"
+    patternMismatch:"El Nombre solo puede contener como maximo 40 caracteres"
   },
   precioProducto:{
     valueMissing:"El campo Precio del Producto no puede estar vacio",

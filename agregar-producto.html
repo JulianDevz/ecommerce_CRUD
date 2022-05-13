@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="formulario-login__input-container">
-                        <input name="producto" id="producto" class="input inputs" type="text" placeholder="" required data-tipo="nombreProducto" pattern="^[\s\S]{0,20}$"  data-form-producto-nombre>
+                        <input name="producto" id="producto" class="input inputs" type="text" placeholder="" required data-tipo="nombreProducto" pattern="^[\s\S]{0,40}$"  data-form-producto-nombre>
                         <label class="input-label" for="producto">Nombre del producto</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
@@ -65,12 +65,12 @@
                     </div>
                     <select class="select-css" data-form-producto-categoria>
                         <option>Elige una Categoria</option>
-                        <option>Star Wars</option>
+                        <option>Star wars</option>
                         <option>Consolas</option>
                         <option>Diversos</option>
                     </select>
                     <div class="formulario__textarea-container">
-                        <textarea name="descripcion" id="descripcion" class="textarea inputs" rows="5" type="text" placeholder="" required data-tipo="descripcionProducto" pattern="^[\s\S]{0,10}$" maxlength="150" data-form-producto-descripcion></textarea>
+                        <textarea name="descripcion" id="descripcion" class="textarea inputs" rows="5" type="text" placeholder="" required data-tipo="descripcionProducto" maxlength="300" data-form-producto-descripcion></textarea>
                         <label class="input-label" for="descripcion">Descripcion del producto</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
