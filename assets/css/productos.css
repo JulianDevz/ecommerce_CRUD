@@ -41,18 +41,12 @@
     margin-left: .6rem;
 }
 
-.productos_index{
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-}
-
 .star_wars__productos,
 .consolas__productos,
 .diversos__productos,
 .productos_admin,
-.producto_similares{
+.producto_similares,
+.productos_index{
     display: grid;
     gap: 1rem;
     grid-auto-rows: 22rem;

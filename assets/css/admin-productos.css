@@ -30,15 +30,14 @@
 }
 
  .boton-eliminar{
-    padding-top: .5rem;
-    padding-left: .5rem;
+    padding-top: .6rem;
+    padding-right: .8rem;
     transition: transform .2s; 
 }
 
 .boton-editar{
-    padding-left: .7rem;
     padding-right: .7rem;
-    padding-top: .5rem;
+    padding-top: .55rem;
     transition: transform .2s; 
 }
 
