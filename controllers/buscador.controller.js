@@ -8,16 +8,22 @@ const tituloBusqueda = document.querySelector("[data-titulo-busqueda]");
 const mostrarResultadoBuscado = async () => {
   const url = new URL(window.location);
   const nombreBuscado = url.searchParams.get("texto");
+  
   if(nombreBuscado === null){
     console.log("Hubo un error al momento de buscar el producto");
   }
+  const nombreBuscar = nombreBuscado.toLowerCase();
 
   let cantidadResultados = 0;
   //Resultados busqueda
   clientServices.listaProductos().then(data => {
     data.forEach(({nombre, precio, descripcion, imagen, id, categoria}) => {
-      const nombreMinuscula = nombre.toLowerCase();
-      if(nombreBuscado === nombreMinuscula || nombreBuscado === nombre){
+      const nombreProducto = nombre.toLowerCase();
+      const nombreCategoria = categoria.toLowerCase();
+      const validar = nombreProducto.includes(nombreBuscar);
+      const validarCategoria = nombreCategoria.includes(nombreBuscado);
+
+      if(validar || validarCategoria){
         const mostrarResultadoBuscado = MostrarProductos(nombre, precio, descripcion, imagen, id, categoria);
         resultados.appendChild(mostrarResultadoBuscado);
         cantidadResultados++;
@@ -40,16 +46,19 @@ let cantResultNuevaBusqueda = 0;
 
 //Enviando nombre de la busqueda a pagina resultados busqueda
 buscador.addEventListener("keypress", evento => {
-  let texto = evento.target.value
+  let texto = evento.target.value;
     if (evento.key === 'Enter') {
+      texto = texto.toLowerCase();
       buscador.value = "";
       const limpiarContenido = ``;
       resultados.innerHTML = limpiarContenido;
       
       clientServices.listaProductos().then(data => {
         data.forEach(({nombre, precio, descripcion, imagen, id, categoria}) => {
-          const nombreMinuscula = nombre.toLowerCase();
-          if(texto === nombreMinuscula || texto === nombre){
+          const nombreProducto = nombre.toLowerCase();
+          const validar = nombreProducto.includes(texto);
+
+          if(validar){
             const mostrarProductoBuscado = MostrarProductos(nombre, precio, descripcion, imagen, id, categoria);
             resultados.appendChild(mostrarProductoBuscado);
             cantResultNuevaBusqueda++;
