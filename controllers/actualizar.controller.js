@@ -37,8 +37,6 @@ obtenerInfoProducto();
 
 
 
-
-
 const formulario = document.querySelector("[data-form-registro]");
 formulario.addEventListener("submit", evento => {
   evento.preventDefault();

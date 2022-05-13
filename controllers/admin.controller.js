@@ -61,3 +61,8 @@ clientServices.listaProductos().then(data => {
     productosAdmin.appendChild(nuevoProducto);
   });
 }).catch(error => alert("ocurrio un error"));
+
+
+export const adminControler = {
+  MostrarProductosAdmin
+}
