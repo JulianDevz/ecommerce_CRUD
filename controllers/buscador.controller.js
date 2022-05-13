@@ -34,8 +34,6 @@ const mostrarResultadoBuscado = async () => {
 }
 mostrarResultadoBuscado();
 
-
-
 //Nueva busqueda
 const buscador = document.querySelector("[data-buscador]");
 let cantResultNuevaBusqueda = 0;
@@ -43,7 +41,6 @@ let cantResultNuevaBusqueda = 0;
 //Enviando nombre de la busqueda a pagina resultados busqueda
 buscador.addEventListener("keypress", evento => {
   let texto = evento.target.value
-  console.log(evento.target.value);
     if (evento.key === 'Enter') {
       buscador.value = "";
       const limpiarContenido = ``;

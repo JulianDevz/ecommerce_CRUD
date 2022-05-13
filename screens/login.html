@@ -4,46 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/img/geek_vector.svg">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/banner.css">
-    <link rel="stylesheet" href="./assets/css/productos.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/formulario.css">
-    <link rel="stylesheet" href="./assets/css/rodapie.css">
-    <link rel="stylesheet" href="./assets/css/admin-productos.css">
+    <link rel="icon" href="../assets/img/geek_vector.svg">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/productos.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/formulario-login.css">
+    <link rel="stylesheet" href="../assets/css/formulario.css">
+    <link rel="stylesheet" href="../assets/css/rodapie.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Alura Geek - Administracion</title>
+    <title>Login - Alura Geek</title>
 </head>
 <body>
     <header class="header container">
         <div class="header_info">
-            <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg" alt="logo de alura geek"></a>
+            <a href="../index.html"><img class="header__logo" src="../assets/img/Logo.svg" alt="logo de alura geek"></a>
             <input class="header__input" type="text" placeholder="¿Que deseas buscar?" data-buscador>
-            <img class="header__lupa" src="./assets/img/lupa.svg" alt="lupa">
+            <img class="header__lupa" src="../assets/img/lupa.svg" alt="lupa">
         </div>
         <a class="header__boton" href="./login.html">Login</a>
-        <img class="header__lupa-mobile" src="./assets/img/lupa-mobile.svg" alt="lupa">
+        <img class="header__lupa-mobile" src="../assets/img/lupa-mobile.svg" alt="lupa">
     </header>
     <main>
 
-        <!---------------------------------->
-        <!------------ PRODUCTOS ----------->
-        <!---------------------------------->
+        <!----------------------------------->
+        <!-------------- LOGIN -------------->
+        <!----------------------------------->
 
-        <section class="seccion__productos">
-            <div class="productos container">
-                <div class="star_wars">       
-                    <div class="productos__head">
-                        <h1 class="productos__head__titulo-principal">Todos los productos</h1>
+        <div class="formulario">
+            <div class="formulario-login container">
+                <h3 class="formulario-login__titulo">Iniciar Sesión</h2>
+                <form action="" class="formulario-login_form">
+                    <div class="formulario-login__input-container">
+                        <input name="usuario" id="usuario" class="input inputs" type="text" placeholder="" required data-tipo="usuario" data-form-usuario>
+                        <label class="input-label" for="usuario">Escribe tu usuario</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                    <div class="productos_admin" data-productos-admin>
+                    <div class="formulario-login__input-container">
+                        <input name="contraseña" id="contraseña" class="input inputs input-contraseña" type="password" placeholder="" required   data-tipo="contraseña" data-form-contraseña>
+                        <label class="input-label" for="contraseña">Escribe tu contraseña</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                </div>
+                    <input class="boton-formulario-login" type="submit" name="enviar" id="enviar-login" value="Entrar">
+                </form>
             </div>
-        </section>
+        </div>
 
         <!----------------------------------->
         <!------------- CONTACTO ------------>
@@ -52,7 +58,7 @@
         <section class="footer">
             <div class="contenido__footer container">
                 <div class="contenido__footer_info">
-                    <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg" alt="logo de alura geek"></a>
+                    <a href="../index.html"><img class="header__logo" src="../assets/img/Logo.svg" alt="logo de alura geek"></a>
                     <ul  class="footer_links">
                         <li class="footer__enlace"><a href="#">Quienes somos</a></li>
                         <li class="footer__enlace"><a href="#">Politica de privacidad</a></li>
@@ -91,8 +97,9 @@
         <p class="rodapie__texto">2022</p>
     </footer>
 
-    <script src="/controllers/busqueda.controller.js" type="module"></script>
-    <script src="./controllers/todos.productos.controller.js" type="module"></script>
-    <script src="./js/app.js" type="module"></script>
-</body>
+    <script src="../controllers/busqueda.controller.js" type="module"></script>
+    <script src="../js/login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/app.js" type="module"></script>
+</body>    
 </html>

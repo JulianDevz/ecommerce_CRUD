@@ -60,7 +60,7 @@ formulario.addEventListener("submit", evento => {
       timer: 1500
     })
     setTimeout(function(){
-      window.location.href = "/admin-productos.html";
+      window.location.href = "../screens/admin-productos.html";
     }, 2000);
   })
 

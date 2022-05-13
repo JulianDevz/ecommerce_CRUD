@@ -1,12 +1,7 @@
 import { clientServices } from "../services/client-service.js";
 
-console.log("si entro");
-
 const formulario = document.querySelector("[data-form-registro]");
-console.log(formulario);
-
 formulario.addEventListener("submit", (eventoSubmit) => {
-  console.log("entro al submit");
   eventoSubmit.preventDefault();
   const nombre = document.querySelector("[data-form-producto-nombre]").value;
   const precio = document.querySelector("[data-form-producto-precio]").value;
@@ -23,7 +18,6 @@ formulario.addEventListener("submit", (eventoSubmit) => {
   <img class="imagen-drop-img__pantalla-mobile" src="./assets/img/Vector-imagen_mobile.svg" alt="icono agrega imagen">
   <p class="imagen-drop-texto">Arrastre para agregar una imagen para el producto</p>
   `
-
   //Enviando datos a la funcion que crea el producto
   clientServices
   .crearProducto(nombre, precio, fileURL, categoria, descripcion)
@@ -35,7 +29,6 @@ formulario.addEventListener("submit", (eventoSubmit) => {
     descripVaciar.value = "";
     zonaDrag.classList.remove("active");
     zonaDrag.innerHTML = contenidoDrag;
-    
     Swal.fire(
       'Perfecto!',
       'Producto Creado!',
