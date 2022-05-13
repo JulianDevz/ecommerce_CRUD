@@ -1,5 +1,7 @@
 import { clientServices } from "../services/client-service.js";
 
+const productos = document.querySelector("[data-productos-admin]");
+
 //Creando la card del producto
 const MostrarProductosAdmin = (nombre, precio, descripcion, imagen, id, categoria) => {
   //Creando el div que guarda todo el card
@@ -41,8 +43,10 @@ const MostrarProductosAdmin = (nombre, precio, descripcion, imagen, id, categori
           timer: 1500
         })
         setTimeout(function(){
-          window.location.reload()
-        },2000);
+          const limpiarContenido = ``;
+          productos.innerHTML = limpiarContenido;
+          imprimirProductos();
+        },1700);
       }
     })
   })
@@ -53,14 +57,17 @@ const MostrarProductosAdmin = (nombre, precio, descripcion, imagen, id, categori
 //Capturando la seccion para mostrar los productos
 const productosAdmin = document.querySelector("[data-productos-admin]");
 
-//Recorrer los datos traidos del JSON
-clientServices.listaProductos().then(data => {
-  data.forEach(({nombre, precio, descripcion, imagen, id, categoria}) => {
-    //Imprimir datos en el index
-    const nuevoProducto = MostrarProductosAdmin(nombre, precio, descripcion, imagen, id, categoria);
-    productosAdmin.appendChild(nuevoProducto);
-  });
-}).catch(error => alert("ocurrio un error"));
+const imprimirProductos = () => {
+  //Recorrer los datos traidos del JSON
+  clientServices.listaProductos().then(data => {
+    data.forEach(({nombre, precio, descripcion, imagen, id, categoria}) => {
+      //Imprimir datos en el index
+      const nuevoProducto = MostrarProductosAdmin(nombre, precio, descripcion, imagen, id, categoria);
+      productosAdmin.appendChild(nuevoProducto);
+    });
+  }).catch(error => alert("ocurrio un error"));
+}
+imprimirProductos();
 
 
 export const adminControler = {
