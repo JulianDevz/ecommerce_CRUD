@@ -11,7 +11,7 @@ const loginUsuario = () => {
   console.log(correoIngresado);
   console.log(contraseñaIngresada);
   var user = "admin";
-  var pass = "admin123";
+  var pass = "admin2468";
 
   if( correoIngresado === user && contraseñaIngresada === pass ){
     Swal.fire({
