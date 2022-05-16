@@ -1,0 +1,148 @@
+{
+  "productos": [
+    {
+      "nombre": "Producto XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/ydRhHsL/producto-1.png",
+      "id": "1",
+      "categoria": "Star wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/35bTz5c/producto-2.png",
+      "id": "2",
+      "categoria": "Star wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/1TybsXT/producto-3.png",
+      "id": "3",
+      "categoria": "Star wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/C1VKkRC/producto-4.png",
+      "id": "4",
+      "categoria": "Star wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/5xrv1Xq/producto-5.png",
+      "id": "5",
+      "categoria": "Star wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/VjsTyxm/producto-6.png",
+      "id": "6",
+      "categoria": "Star wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Control XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/WyzMJtC/consola-1.png",
+      "id": "7",
+      "categoria": "Consolas",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/0BpJthg/consola-2.png",
+      "id": "8",
+      "categoria": "Consolas",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Consola XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/JQjVwYX/consola-3.png",
+      "id": "9",
+      "categoria": "Consolas",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Consola XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/b3xr74X/consola-4.png",
+      "id": "10",
+      "categoria": "Consolas",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Consola XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/SrSD1fz/consola-5.png",
+      "id": "11",
+      "categoria": "Consolas",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Game Boy Color",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/SX5xWzC/consola-6.png",
+      "id": "12",
+      "categoria": "Consolas",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Camisa Atari",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/B3V2KrM/diversos-1.png",
+      "id": "13",
+      "categoria": "Diversos",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Camisa SNES",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/r2L7LDq/diversos-2.png",
+      "id": "14",
+      "categoria": "Diversos",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/NxfKpVZ/diversos-3.png",
+      "id": "15",
+      "categoria": "Diversos",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/0yzSJ50/diversos-4.png",
+      "id": "16",
+      "categoria": "Diversos",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Control y consola XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/LpY04k4/diversos-5.png",
+      "id": "17",
+      "categoria": "Diversos",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Producto XYZ",
+      "precio": "6000",
+      "imagen": "https://i.ibb.co/JdfLkV6/diversos-6.png",
+      "id": "18",
+      "categoria": "Diversos",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    }
+  ]
+}
