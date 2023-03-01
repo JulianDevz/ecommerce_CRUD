@@ -37,5 +37,5 @@ _Este repositorio fue creado como solución al Challengue Frontend #2 propuesto 
   
   ![giphy](https://user-images.githubusercontent.com/42880872/156003638-cb5322ae-3406-48c6-ba64-c8def9ed4876.gif)
   
-  ⌨️ con ❤️ por [JulianTM](https://github.com/JulianTM) 😊
+  ⌨️ con ❤️ por [JulianDevz](https://github.com/JulianDevz) 😊
 </div>
