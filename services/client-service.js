@@ -1,8 +1,8 @@
 //Conexion
-const listaProductos = () => fetch('https://ecommerce-juliandevz.herokuapp.com/productos').then(respuesta => respuesta.json());
+const listaProductos = () => fetch('https://zealous-loincloth-bass.cyclic.app/productos').then(respuesta => respuesta.json());
 
 const crearProducto = (nombre, precio, imagen, categoria, descripcion) => {
-  return fetch('https://ecommerce-juliandevz.herokuapp.com/productos', {
+  return fetch('https://zealous-loincloth-bass.cyclic.app/productos', {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -12,18 +12,18 @@ const crearProducto = (nombre, precio, imagen, categoria, descripcion) => {
 };
 
 const eliminarProducto = (id) => {
-  return fetch(`https://ecommerce-juliandevz.herokuapp.com/productos/${id}`, {
+  return fetch(`https://zealous-loincloth-bass.cyclic.app/productos/${id}`, {
     method: "DELETE"
   });
 };
 
 //Detalles del producto por ID
 const detalleProducto = async (id) => {
-  return fetch(`https://ecommerce-juliandevz.herokuapp.com/productos/${id}`).then( respuesta => respuesta.json());
+  return fetch(`https://zealous-loincloth-bass.cyclic.app/productos/${id}`).then( respuesta => respuesta.json());
 };
 
 const actualizarProducto = (nombre, precio, imagen, id, categoria, descripcion) => {
-  return fetch(`https://ecommerce-juliandevz.herokuapp.com/productos/${id}`, {
+  return fetch(`https://zealous-loincloth-bass.cyclic.app/productos/${id}`,{
     method: "PUT",
     headers: {
       "Content-Type": "application/json"
