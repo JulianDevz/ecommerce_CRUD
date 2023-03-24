@@ -70,5 +70,7 @@ const obtenerInformacion = async () => {
   }catch(error){
     console.log("catch error", error);
   }
+
+  
 } 
 obtenerInformacion();
